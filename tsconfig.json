@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true, 
+    "moduleResolution": "node",
+    "types":  ["reflect-metadata"],
+    "esModuleInterop": true,    
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,        
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true
+  },
+}

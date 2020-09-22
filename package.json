@@ -1,0 +1,19 @@
+{
+  "name": "@crawly/command-bus",
+  "version": "0.0.1",
+  "description": "A simple command bus library for Node.js",
+  "author": "Luiz Henrique Gomes Palacio",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
